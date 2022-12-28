@@ -1,0 +1,66 @@
+body{
+    font-family:Ubuntu;
+}
+#title{
+background-color: #ff4c68;
+color: #fff;
+}
+h1{
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+h3{
+    font-family: Montserrat;
+    
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 0% 15%;
+}
+/*Navbar*/
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 3rem;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+    
+}
+.nav-item{
+padding: 0px 30px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:Montserrat-light ;
+}
+/* Downlode Button*/
+
+.downlode-button{
+    margin: 5% 3% 5% 0%;
+}
+/*Title Image*/
+.title-image{
+padding-bottom: 4%;
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/*features*/
+#features{
+    padding: 7% 15%;
+}
+.features-box{
+   
+    text-align: center;
+}
+.icon{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #00aff4;
+}
