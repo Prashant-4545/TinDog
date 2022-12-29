@@ -64,3 +64,30 @@ padding-bottom: 4%;
 .icon:hover{
     color: #00aff4;
 }
+/*testimonials*/
+#testimonials{
+    text-align: center;
+    background-color: #ff6c58;
+    color: #fff;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+/*press*/
+
+#press{
+    background-color: #ff6c58;
+text-align: center;
+padding-bottom: 3%;
+}
+.press-logo{
+width: 15%;
+margin: 20px 20px 50px;
+}
