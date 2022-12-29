@@ -11,6 +11,10 @@ h1{
     line-height: 1.5;
     
 }
+h2{
+    font-family: Montserrat;
+font-style:bold;
+}
 h3{
     font-family: Montserrat;
     
@@ -91,3 +95,18 @@ padding-bottom: 3%;
 width: 15%;
 margin: 20px 20px 50px;
 }
+/*Pricing*/
+#pricing {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
