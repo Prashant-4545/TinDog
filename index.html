@@ -53,13 +53,13 @@
 
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href=""> Contact </a>
+              <a class="nav-link" href="#contact"> Contact </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href=""> Pricing </a>
+              <a class="nav-link" href="#pricing""> Pricing </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href=""> Downlode </a>
+              <a class="nav-link" href="#cta"> Downlode </a>
             </li>
           </ul>
         </div>
@@ -116,6 +116,31 @@
 
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+ 
+ <!-- <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
         <div class="carousel-item active">
           <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on
             TinDog. Woof.</h2>
@@ -137,7 +162,7 @@
       </a>
     </div>
   </section>
-
+-->
 
 
   <!-- Press -->
@@ -181,7 +206,7 @@
             <h3>Labrador</h3>
           </div>
           <div class="card-body">
-            <h2 class="price-text">$49 / mo</h2>
+            <h2 class="price-text">99₹  / mo</h2>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
@@ -196,7 +221,7 @@
             <h3>Mastiff</h3>
           </div>
           <div class="card-body">
-            <h2 class="price-text">$99 / mo</h2>
+            <h2 class="price-text">199₹ / mo</h2>
             <p>Pirority Listing</p>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
@@ -214,24 +239,105 @@
   </section>
         <!-- Call to Action -->
 
-        <section id="cta">
+        <section class="colored-section" id="cta">
 
-          <h3>Find the True Love of Your Dog's Life Today.</h3>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
-
+          <div class="container-fluid">
+      
+            <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
+            <button type="button" class="btn btn-dark btn-lg downlode-button"><i
+              class="fa-brands fa-apple"></i>Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg downlode-button"><i
+              class="fab fa-google-play"></i>Download</button>
+          </div>
         </section>
-
-
+      
+      
         <!-- Footer -->
-
-        <footer id="footer">
-
-          <p>© Copyright TinDog</p>
-
+      
+        <section class="contact-sec sec-pad" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="contact-detail">
+                  <h1 class="section-title">Contact us</h1>
+        
+                  <ul class="contact-ul">
+                    <li><i class="fa fa-location-dot"></i> baner, Pune, India</li>
+        
+                    <li>
+                      <i class="fa fa-phone"></i>
+                      <a href="tel:08510004495"><b>+91 95475709472</b></a>,
+                    </li>
+        
+                    <li>
+                      <i class="fa-solid fa-envelope"></i>
+                      <a href="#"><b>patilpd4545@gmail.com</b></a>
+                    </li>
+                  </ul>
+        
+                  <span>
+                    <a href="#" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                  </span>
+                </div>
+              </div>
+        
+              <div class="col-md-6">
+                <form action="#" class="contFrm" method="POST">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <input type="text" name="name" placeholder="Your Name" class="inptFld" required />
+                    </div>
+        
+                    <div class="col-sm-6">
+                      <input type="email" name="email" placeholder="Email Address" class="inptFld" required />
+                    </div>
+        
+                    <div class="col-sm-6">
+                      <input type="tel" name="phone" placeholder="Phone Number" class="inptFld" required />
+                    </div>
+        
+                    <div class="col-sm-6">
+                      <input type="text" name="sub" placeholder="Subject" class="inptFld" required />
+                    </div>
+        
+                    <div class="col-12">
+                      <textarea class="inptFld" rows="" cols="" placeholder="Your Message..." required></textarea>
+                    </div>
+        
+                    <div class="col-12">
+                      <input type="submit" name="submit" value="SUBMIT" class="inptBtn" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+        
+            <div style="text-align: center; margin-top: 20px;">
+              <p> Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | TinDog
+              </p>
+            </div>
+        
+          </div>
+        </section>
+      
+       <!-- <footer class="white-section" id="footer">
+          <div class="container-fluid">
+            <i class="social-icon fab fa-facebook-f"></i>
+            <i class="social-icon fab fa-twitter"></i>
+            <i class="social-icon fab fa-instagram"></i>
+            <i class="social-icon fas fa-envelope"></i>
+            <p>© Copyright 2022 TinDog</p>
+          </div>
         </footer>
-
-
-</body>
-
-</html>
+      
+      
+      </body>
+      
+      </html>
+-->
